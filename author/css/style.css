@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@font-face {
+  font-family: 'lobster';
+  src: url("../fonts/Lobster.otf");
+}
+* {
+  outline: 0 !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.mr-a {
+  margin-right: auto;
+}
+
+.mt-a {
+  margin-top: auto;
+}
+
+.mb-a {
+  margin-bottom: auto;
+}
+
+.header .navbar {
+  min-width: 100%;
+  background-color: #fff;
+  padding: 0;
+}
+.header .navbar .navbar-brand {
+  margin-right: auto;
+  font-family: "lobster", serif, sans-serif;
+  color: #44c0c2;
+  font-size: 2rem;
+}
+.header .navbar .navbar-collapse {
+  width: initial;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item {
+  padding: 19px 13px 16px;
+  margin-right: 20px;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+  transition: color .5s, background-color .9s, border-bottom .5s;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item:hover, .header .navbar .navbar-collapse .navbar-nav .nav-item.active {
+  background-color: #f1f1f1;
+  border-bottom: 2px solid #44c0c2;
+  color: #44c0c2;
+}

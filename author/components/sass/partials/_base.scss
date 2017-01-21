@@ -1,0 +1,28 @@
+*{
+	outline: 0 !important;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $primary-font;
+	font-weight: 600;
+}
+
+.ml-a{
+	margin-left: auto;
+}
+.mr-a{
+	margin-right: auto;
+}
+.mt-a{
+	margin-top: auto;
+}
+.mb-a{
+	margin-bottom: auto;
+}

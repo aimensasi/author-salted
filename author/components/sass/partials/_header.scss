@@ -1,0 +1,49 @@
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+// @font-face {
+//   font-family: 'lobster';
+//   src: url('../fonts/Lobster.otf');
+// }
+
+// $logo-font: 'lobster', serif, sans-serif;
+// $primary-font: 'Open Sans', sans-serif;
+
+// $primary-color: #44c0c2;
+// $second-color: #485460;
+// $facebook-color: #3b5997;
+// $twitter-color: #3ec2f3;
+// $google-color: #e44c41;
+// $gray: #f1f1f1;
+// $black: #4e525d;
+
+.header{
+	.navbar{
+		min-width: 100%;
+		background-color: #fff;
+		padding: 0;
+		.navbar-brand{
+			margin-right: auto;
+			font-family: $logo-font;
+			color: $primary-color;
+			font-size: 2rem;
+		}
+		.navbar-collapse{
+			width: initial;
+			.navbar-nav{
+				.nav-item{
+					padding: 19px 13px 16px;
+					margin-right: 20px;
+					text-transform: capitalize;
+					border-bottom: 2px solid transparent;
+					transition: color .5s, background-color .9s, border-bottom .5s;
+					&:hover,
+					&.active{
+						background-color: $gray;
+						border-bottom: 2px solid $primary-color;
+						color: $primary-color;
+					}
+				}
+			}
+		}
+	}
+}
