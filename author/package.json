@@ -1,0 +1,43 @@
+{
+  "name": "author-salted",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimensasi/author-salted.git"
+  },
+  "keywords": [
+    "Landing",
+    "Sass",
+    "Gulp",
+    "Js",
+    "Css",
+    "HTML5"
+  ],
+  "author": "Aimen.S.A.Sasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimensasi/author-salted/issues"
+  },
+  "homepage": "https://github.com/aimensasi/author-salted#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "imagemin-pngcrush": "^5.0.0",
+    "mustache": "^2.3.0"
+  }
+}
